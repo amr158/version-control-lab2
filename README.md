@@ -34,4 +34,4 @@ Please make sure to update test as appropriate
 [MIT](https://www.mit.edu/)
 
 
-![](https://github.com/amr158/version-control-lab2/tree/master/img/lab1_q4.png)
+![](https://github.com/amr158/version-control-lab2/blob/master/img/lab1_q4.png)
