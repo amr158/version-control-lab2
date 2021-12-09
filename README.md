@@ -23,7 +23,8 @@ foobar.singularize('phenomena') # returns 'phenomenon'
 ~~~
 
 ## Contributing
-Pull request are welcome. For major changes, please open an issue first to discuss what you would like to vhange
+Pull request are welcome. For major changes, please open an issue first to discuss what you 
+would like to vhange
 
 Please make sure to update test as appropriate
 
