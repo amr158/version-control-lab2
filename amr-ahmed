@@ -1,0 +1,51 @@
+#create repo and pranches 
+
+-mkdir version-control-lab2
+-cd version-control-lab2
+-git init
+-git remote add origin git@github.com:amr158/version-control-lab2.git
+-touch amr-ahmed
+-git add amr-ahmed
+-git commit -m"my answers"
+-git push origin master
+-git branch dev
+-git branch test
+-------------------------------------------------
+#add files and push them
+
+-git checkout test
+-git push origin test
+-git checkout dev
+-touch file1
+-touch file1
+-git add .
+-git commit -m "dev add files"
+-git push origin dev
+-------------------------------------------------
+#merge updates and push to remote repo
+
+-git checkout master
+-git merge dev
+-git push origin master
+
+-------------------------------------------------
+#delete branches
+
+-git branch -d dev
+-git push origin :dev
+-git branch -d test
+-git push origin :test
+-------------------------------------------------
+#tag
+
+-git tag -a v1.4 -m "v1.4"
+-git push origin v1.4
+
+#list tags
+-git log --pretty=oneline
+
+#delte :
+
+-git tag -d v1.4
+-git push origin :refs/tags/v1.4
+
